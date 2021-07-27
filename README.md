@@ -1,6 +1,6 @@
 # Youtube Clone
 
-Static front-end clone of YouTube.com, deployed using React.
+Static front-end clone of Youtube.com, deployed using React.
 
 ### `NOTE`
 
