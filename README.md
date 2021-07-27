@@ -1,6 +1,6 @@
 # YouTube Clone
 
-Static front-end clone of Youtube.com built with React deployed using Firebase.
+Static front-end clone of Youtube.com built with React deployed using Firebase. The website is going to be in classic light mode and not the more recent dark mode. 
 
 ### `NOTE`
 
