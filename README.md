@@ -1,4 +1,4 @@
-# Youtube Clone
+# YouTube Clone
 
 Static front-end clone of Youtube.com, deployed using React.
 
