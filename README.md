@@ -1,6 +1,6 @@
 # YouTube Clone
 
-Static front-end clone of Youtube.com with React deployed using Firebase.
+Static front-end clone of Youtube.com built with React deployed using Firebase.
 
 ### `NOTE`
 
