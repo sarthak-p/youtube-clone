@@ -1,17 +1,20 @@
 import React from 'react'; 
 import Header from './Header';
+import Sidebar from './Sidebar'; 
+import RecommendedVideos from './RecommendedVideos';
 import './App.css'; 
 
 function App() {
   return (
     //BEM class naming convention
-    <div className="App">
-      {/*Header*/}
-      <Header>
+    <div className="app">
 
-      </Header>
-      {/*Sidebar*/}
-      {/*Recommended Videos*/}
+      <Header />
+      <div className="app_page">
+        <Sidebar />
+        <RecommendedVideos />
+
+      </div>
 
     </div>
   );

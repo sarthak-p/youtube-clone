@@ -22,14 +22,14 @@ function Header() {
             </div>
         
             <div className="header_input">
-                <input type="text" />
+                <input placeholder ="Search" type="text" />
                 <SearchIcon className="header_inputButton"/>
             </div>
             
             <div className="header_icons">
-                <VideoCallIcon />
-                <AppsIcon />
-                <NotificationsIcon />
+                <VideoCallIcon className = "header_icon"/>
+                <AppsIcon className = "header_icon"/>
+                <NotificationsIcon className = "header_icon"/>
                  <Avatar
                     alt="Profile picture"
                     src="https://www.facebook.com/photo/?fbid=3091555994244291&set=a.104017852998135"

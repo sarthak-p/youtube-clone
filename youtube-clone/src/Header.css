@@ -3,11 +3,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  position: sticky; 
+  top: 0; 
+  z-index: 100; 
+  background-color: white; 
 }
 
 .header_logo {
   height: 25px;
-  object-fit: contain;
+  object-fit: contain3;
   margin-left: 20px;
 }
 
@@ -23,10 +27,14 @@
   align-items: center;
 }
 
+.header_icon {
+  margin-right: 12px; 
+}
+
 .header_input > input {
   flex: 1;
   border: none;
-}
+} 
 
 .header_inputButton {
     width: 50px !important; 
