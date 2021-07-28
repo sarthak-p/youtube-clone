@@ -2,7 +2,8 @@ import React from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar'; 
 import RecommendedVideos from './RecommendedVideos';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SearchPage from "./SearchPage";
 import './App.css';
 
 function App() {
@@ -13,7 +14,11 @@ function App() {
         <Header />
         <Switch>
           <Route path="/search/:searchTerm">
-            <h1>Search page</h1>
+            <div className="app_page">
+              <Sidebar />
+              <SearchPage />
+            </div>
+
           </Route>
           <Route path="/">
             <div className="app_page">
