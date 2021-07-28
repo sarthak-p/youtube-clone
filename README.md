@@ -14,6 +14,6 @@ Static front-end clone of Youtube.com built with React and Material UI deployed 
 - Run `npm i` to install all dependencies.
 - Run `npm start` to start the development server.
 
-At this point, a new browser will be opened through which you can view/edit the app. 
+At this point, a new tab will be opened in your browser through which you can view/edit the app. You can type something in the searchbar and click the search icon which will take you to a preset search page. To go back to the homepage, click on the YouTube logo at the top. 
 
 For more instructions, please go to the "youtube-clone" folder and follow the instructions in the README. 
